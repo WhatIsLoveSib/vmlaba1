@@ -3,7 +3,7 @@
 
 #define SIZE 3
 
-void rsly_gauss(int n, double **a, double *x)
+void rsly_gauss(int n, double a[][SIZE], double *x)
 {
     int imax, i, j, k;
     double amax, c;
